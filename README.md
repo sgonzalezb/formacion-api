@@ -11,6 +11,7 @@ encontrarás el código fuente de la aplicación,una guía de inicio rápido, as
 2. [Formación](#id2)
     1. [Estructura del repositorio](#id2.1)
     1. [Instrucciones para trabajar en el repositorio](#id2.2)
+3. [Práctica Introducción](#id3)
 
 <div id='id1' />
 
@@ -111,3 +112,32 @@ práctica.
 
 ¡Gracias por formar parte de nuestra formación continua! Si tienes alguna duda o pregunta, no dudes en ponerte en contacto con el
 tutor de la empresa.
+
+<div id='id3' />
+
+# 📚 Práctica Introducción 📚
+
+Los ejercicios propuestos están diseñados para mejorar las habilidades en **programación orientada a objetos** y **programación
+funcional**.
+
+Se trata de una practica de introducción, dividida en diferentes ejercicios, cada uno explicado y con **casos test** para
+comprobar que el resultado obtenido es correcto.
+
+Se pueden observar **_dos_** clases nuevas:
+
+![img.png](img.png)
+
+- `PracticaIntroduccion`: se encuentra la tarea a realizar, dentro encontraremos distintos ejercicios que se deben realizar.
+- `PracticaIntroduccionResuelt`: se encuentra la tarea a resuelta.
+
+**NO** hay una única forma de realizar los ejercicios, siempre que se cumpla lo que describen los enunciados y pasen los casos
+test, se pueden dar por correctos.
+
+> _RECOMENDACIÓN_:
+>
+> _Por cada ejercicio debería haber dos commits diferentes:_
+> - _El **primero resolviendo** el problema que se te plantee de forma correcta (casos test ✅)_
+> - _El **segundo refactorizando** el código (mejorar código 🥇)_
+>
+
+
