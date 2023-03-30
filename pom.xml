@@ -14,7 +14,7 @@
 	<name>formacion-api</name>
 	<description>Proyecto para formación arteco</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

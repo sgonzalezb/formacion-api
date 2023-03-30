@@ -4,6 +4,7 @@ import static org.mockito.BDDMockito.given;
 
 import com.arteco.formacionapi.model.Book;
 import com.arteco.formacionapi.repository.BookRepository;
+import java.time.LocalDate;
 import java.util.List;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -19,32 +20,32 @@ class BookServiceTest {
 												"Clean Code",
 												"Robert Cecil Martin",
 												"desarrollo",
-												true,
+												LocalDate.of(2025, 5, 25),
 												15d);
 	private static final Book BOOK_2 = new Book(2L,
 												"Padre Rico,"
 													+ "padre Pobre",
 												"Robert T. Kiyosaki",
 												"economia",
-												true,
+												LocalDate.of(2017, 2, 12),
 												25d);
 	private static final Book BOOK_3 = new Book(3L,
 												"Piense y hágase rico ",
 												"Napoleon Hill",
 												"economia",
-												true,
+												LocalDate.of(2009, 8, 17),
 												8d);
 	private static final Book BOOK_4 = new Book(4L,
 												"Harry Potter y la piedra filosofal",
 												"Joanne Rowling",
 												"ciencia ficción",
-												true,
+												LocalDate.of(2030, 10, 10),
 												18d);
 	private static final Book BOOK_5 = new Book(5L,
 												"La chica del tren",
 												"Paula Hawkins",
 												"terror",
-												true,
+												LocalDate.of(2024, 1, 1),
 												18d);
 
 

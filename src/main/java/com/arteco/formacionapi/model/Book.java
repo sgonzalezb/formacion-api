@@ -1,5 +1,6 @@
 package com.arteco.formacionapi.model;
 
+import java.time.LocalDate;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -29,7 +30,7 @@ public class Book {
 
 	private String category;
 
-	private boolean published;
+	private LocalDate publish;
 
 	@With
 	private Double price;
